@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #e90e0e;
+    background-color: #000;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212; /* Dark background */
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    color: white;
+  }
+  
+  .highlight {
+    color: yellow; /* Highlight color */
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sign-in {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .sign-in:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown Menu Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .dropdown-content li {
+    list-style: none;
+  }
+  
+  .dropdown-content li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-content li a:hover {
+    background-color: #444;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.hero-section {
+    background: url('file:///C:/Users/user%20p/Desktop/kola%20project/images/front.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: yellow;
+}
+
+.hero-section .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.row button {
+    background-color: #ffd700;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.row button {
+    background-color: #ffd700;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features {
+    padding: 50px 20px;
+    background-color: #241f1f;
+    text-align: center;
+    color: #000000;
+    outline-color: aliceblue;
+    outline-width: 30px;
+    font-weight: bolder;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.features h3 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #ffd700;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.feature p {
+    font-size: 0.9em;
+    color: black;
+}
+/* About Us Section Styles */
+.about-us {
+    padding: 50px 20px;
+    background-color: rgb(247, 242, 242); /* Section background */
+  }
+  
+  .about-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .about-us-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: yellow; /* Darker font for the heading */
+  }
+  
+  .about-us-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #080808;
+    font-weight: bolder;
+    text-align: justify;
+  }
+  /* General Footer Styles */
+.footer {
+    background-color: #121212;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-about, .footer-contact, .footer-links, .footer-subscribe {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .logo-text {
+    color: white;
+  }
+  
+  .highlight {
+    color: yellow;
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .footer p, .footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer a:hover {
+    color: white;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    color: white;
+  }
+  
+  .footer-subscribe form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscribe input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-subscribe button {
+    padding: 10px 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .footer-subscribe button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: white;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    color: white;
+  }
+  
+  

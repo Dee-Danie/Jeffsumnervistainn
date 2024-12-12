@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+    outline-color: #fff;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.facilities-header {
+    text-align: center;
+    background-color: #111;
+    padding: 30px 20px;
+    border-bottom: 2px solid #444;
+}
+
+.facilities-header h2 {
+    color: #ffd700;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.facilities-header h1 {
+    font-size: 2em;
+}
+
+/* Facilities Section */
+.facilities {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.facility {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.facility img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.facility .content h3 {
+    font-size: 1.5em;
+    color: #ffd700;
+}
+
+.facility .content p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+/* Footer Section */
+.subscribe-footer {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #444;
+}
+
+.subscribe-footer .subscribe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-footer .icon {
+    font-size: 2em;
+    color: #ffd700;
+}
+
+.subscribe-footer p {
+    font-size: 1em;
+    color: #ccc;
+}
